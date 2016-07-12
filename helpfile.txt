@@ -1,0 +1,13 @@
+Usage: depthify [DIRECTORY] [OPTION]... [FILE]
+Extract 3D data from a series of images.
+Example: depthify test/images -r 10% depthmap.png
+
+Output control:
+  -d, --depth               bit depth of resulting PNG image (default: 8)
+  -a, --alpha               discard mesh faces with no depth
+  -z, --z-up                sets the Z dimension as the "up" direction
+
+Input control(requires GraphicsMagick):
+  -t, --threshold           creates binary images given a percentage
+  -i, --invert              inverts input images
+  -r, --resize              resizes input images given a percentage

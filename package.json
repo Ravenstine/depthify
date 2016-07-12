@@ -1,0 +1,33 @@
+{
+  "name": "depthify",
+  "version": "1.0.0",
+  "description": "Extract 3D data from a series of images.",
+  "main": "index.js",
+  "bin": {
+    "depthify": "script/depthify.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Titcomb(@Ravenstine)",
+  "license": "MIT",
+  "dependencies": {
+    "get-pixels": "^3.3.0",
+    "gulp": "^3.9.1",
+    "gulp-empty": "^0.1.1",
+    "gulp-gm": "0.0.8",
+    "gulp-rename": "^1.2.2",
+    "minimist": "^1.2.0",
+    "parse-filepath": "^1.0.1",
+    "path": "^0.12.7",
+    "png-coder": "^0.2.1",
+    "pngjs": "^2.3.1",
+    "save-pixels": "^2.3.3",
+    "shell-arguments": "^1.1.9",
+    "through-gulp": "^0.5.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
