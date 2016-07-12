@@ -12,7 +12,7 @@ Depthify expects one or more images where high-luminance represents depth and lo
 ## Use
 Example: 
 
-`depthify input/* output.png`
+`depthify input/images output.png`
 
 That example takes images from the `input` directory and compiles them into an 8-bit PNG formatted depth map in the current directory.  Both PNG and JPG are supported.
 
